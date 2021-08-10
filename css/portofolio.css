@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+
+.nav-link{
+  color: white !important;
+}
+
+.nav-link:hover{
+  font-weight: bold;
+  color: rgb(218, 97, 218) !important;
+}
+
+.navbar-brand{
+  font-family: 'cabin', sans-serif;
+  font-size: 32px;
+  color: white !important;
+}
+
+.jumbotron{
+  background-image: url(../img/portofolio.jpg);
+  background-size: cover;
+  height: 300px;
+  margin-top: -75px;
+}
+.jumbotron .display-4{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
